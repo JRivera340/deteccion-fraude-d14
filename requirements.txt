@@ -1,0 +1,8 @@
+Pillow
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+easyocr
+opencv-python-headless
