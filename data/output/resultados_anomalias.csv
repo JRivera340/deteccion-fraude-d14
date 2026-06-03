@@ -1,0 +1,18 @@
+form_id,total_sufragantes,votos_en_urna,votos_incinerados,votos_candidato_1,votos_candidato_2,votos_blanco,votos_nulos,total_mesa,suma_detalle,diff_total,diff_sufragantes,alerta_total,alerta_sufragantes,alerta_ocr_invalido,sospechosa_reglas,max_zscore,sospechosa_zscore,sospechosa_final,motivo_alerta
+E14_001,2.0,123.0,,1.0,1.0,5.0,,235.0,7.0,228.0,,True,False,False,True,0.6677600526713953,False,True,total_incorrecto
+E14_002,12711.0,211.0,,,11.0,,2.0,1.0,13.0,12.0,,True,False,False,True,0.8400574807020496,False,True,total_incorrecto
+E14_003,12711.0,211.0,,,11.0,,2.0,1.0,13.0,12.0,,True,False,False,True,0.8400574807020496,False,True,total_incorrecto
+E14_004,,,,12.0,179212.0,,,12112.0,179224.0,167112.0,,True,False,True,True,3.4487676863673626,True,True,total_incorrecto | ocr_invalido | zscore=3.45
+E14_005,16.0,152.0,,,,1799.0,7.0,,1806.0,,,False,False,True,True,2.1908902300206643,False,True,ocr_invalido
+E14_006,228.0,28.0,,22.0,13.0,,,8.0,35.0,27.0,,True,False,False,True,0.6409470254826,False,True,total_incorrecto
+E14_007,223.0,21221.0,,111.0,3.0,,,224.0,114.0,110.0,,True,False,False,True,2.5511549222556593,True,True,total_incorrecto | zscore=2.55
+E14_008,21774.0,223.0,,16.0,1.0,,,274.0,17.0,257.0,,True,False,False,True,1.915307327658028,False,True,total_incorrecto
+E14_009,7.0,7.0,,117.0,115.0,5.0,,7.0,237.0,230.0,,True,False,False,True,0.6671668441052715,False,True,total_incorrecto
+E14_010,1.0,6.0,,74.0,8.0,4.0,,,86.0,,,False,False,True,True,0.66787869438462,False,True,ocr_invalido
+E14_011,22.0,2.0,,,,,3.0,228.0,3.0,225.0,,True,False,False,True,0.6653872184069001,False,True,total_incorrecto
+E14_012,77.0,6.0,4.0,112.0,4.0,,,,116.0,,67.0,False,True,True,True,0.7071067811865476,False,True,sufragantes_no_cuadran | ocr_invalido
+E14_013,17274.0,1.0,7.0,,1.0,,2.0,,3.0,,17266.0,False,True,True,True,1.3814196181466185,False,True,sufragantes_no_cuadran | ocr_invalido
+E14_014,996.0,1.0,,51.0,1115.0,,,,1166.0,,,False,False,True,True,0.5498301897259862,False,True,ocr_invalido
+E14_015,21717.0,22.0,,77.0,,16.0,,22.0,93.0,71.0,,True,False,False,True,1.9085447500042168,False,True,total_incorrecto
+E14_016,215.0,2755.0,,1123.0,21815.0,4.0,3.0,215.0,22945.0,22730.0,,True,False,False,True,0.6424893677545218,False,True,total_incorrecto
+E14_017,2112.0,21212.0,,41217.0,1.0,,2.0,,41220.0,,,False,False,True,True,3.174351558195744,True,True,ocr_invalido | zscore=3.17

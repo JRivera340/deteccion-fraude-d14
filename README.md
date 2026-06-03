@@ -71,7 +71,7 @@ El sistema puede identificar:
 ## 1. Clonar repositorio
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/JRivera340/deteccion-fraude-d14.git
 cd deteccion-fraude-d14
 ```
 
@@ -117,6 +117,17 @@ deteccion-fraude-d14/
 ├── README.md
 └── roles.md
 ```
+
+---
+
+# Resultados e Interpretación
+
+El análisis de 17 formularios E14 de la zona electoral Cali Zona 13 reveló inconsistencias tanto en reglas matemáticas como en patrones estadísticos. Los métodos de detección empleados —basados en validaciones aritméticas y análisis de z-score— funcionaron de forma complementaria, permitiendo identificar formularios sospechosos desde dos perspectivas diferentes:
+
+- **Reglas Matemáticas**: Detectan violaciones explícitas en las restricciones contables del formulario (total incorrecto, sufragantes que no cuadran, campos ilegibles por OCR).
+- **Z-Score Estadístico**: Identifica valores atípicos que se desvían significativamente del comportamiento normal del conjunto, útil para detectar anomalías que no violan explícitamente las reglas pero son estadísticamente improbables.
+
+La combinación de ambos métodos proporciona mayor cobertura y confiabilidad que cualquiera de ellos por separado. Los formularios flagueados fueron exportados a informe detallado para revisión manual.
 
 ---
 
@@ -256,4 +267,5 @@ Las anomalías detectadas representan únicamente posibles inconsistencias o pat
 
 # Autores
 
-Proyecto desarrollado para fines académicos por estudiantes de Ingeniería de Sistemas.
+
+Proyecto desarrollado para fines académicos por estudiantes de Ingeniería de Sistemas de la universidad Icesi.

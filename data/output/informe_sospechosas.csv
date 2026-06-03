@@ -1,0 +1,18 @@
+form_id,sospechosa_reglas,sospechosa_zscore,max_zscore,motivo_alerta
+E14_004,True,True,3.448767686367362,total_incorrecto | ocr_invalido | zscore=3.45
+E14_017,True,True,3.174351558195744,ocr_invalido | zscore=3.17
+E14_007,True,True,2.5511549222556598,total_incorrecto | zscore=2.55
+E14_005,True,False,2.1908902300206643,ocr_invalido
+E14_008,True,False,1.915307327658028,total_incorrecto
+E14_015,True,False,1.9085447500042168,total_incorrecto
+E14_013,True,False,1.3814196181466185,sufragantes_no_cuadran | ocr_invalido
+E14_003,True,False,0.8400574807020496,total_incorrecto
+E14_002,True,False,0.8400574807020496,total_incorrecto
+E14_012,True,False,0.7071067811865476,sufragantes_no_cuadran | ocr_invalido
+E14_010,True,False,0.66787869438462,ocr_invalido
+E14_001,True,False,0.6677600526713953,total_incorrecto
+E14_009,True,False,0.6671668441052715,total_incorrecto
+E14_011,True,False,0.6653872184069001,total_incorrecto
+E14_016,True,False,0.6424893677545218,total_incorrecto
+E14_006,True,False,0.6409470254826,total_incorrecto
+E14_014,True,False,0.5498301897259862,ocr_invalido
